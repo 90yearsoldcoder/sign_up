@@ -31,8 +31,9 @@ body {
 }
 
 .content {
-  position: absolute;
+  position: fixed;
   right: 0;
+  top: 0;
   background-color: var(--bg-color, "grey");
   flex: 0 1 auto;
   flex-direction: column;
